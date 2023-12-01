@@ -18,7 +18,7 @@ namespace FactTests
         public void Test_My_CLASS_NAME_IF_NOT_EQUAL_THROWS()
         {
            
-            object obj1 = new MyClass { Name = "Object 2" };//From Refactored code
+            object obj1 = new MyClass { Name = "Object 2" };//From legacy code
             object obj2 = new MyClass { Name = "Object 2" };//From Newly refactored code
             Assert.Throws<ObjReferenceChecker>(testCode: () => CheckNameEquality((MyClass)obj1, (MyClass)obj2));
         }
