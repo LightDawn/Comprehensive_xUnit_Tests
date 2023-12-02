@@ -1,6 +1,6 @@
 namespace FactTests
 {
-    public class UnitTest1
+    public class UnitTests_Facts
     {
         [Fact]
         public async Task Test1()
